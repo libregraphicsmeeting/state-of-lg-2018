@@ -18,4 +18,4 @@ For projects focused on video/animation; an up to 100second video/animation with
 
 Content should be submitted by Tuesday the 24th of April.
 
-Please send your slides to Ale Rimoldi: <strong>ale AT graphicslab.org</strong> or make a pull request to this repository.
+Please send your slides to Ale Rimoldi: **ale AT graphicslab.org** or make a pull request to this repository.
