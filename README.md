@@ -14,6 +14,8 @@ For each project we want a title slide and one, none, or two content slides. The
 
 The graphics files should be 1024×768 – if they are not; they will be resized to fit.
 
+If you're wondering what you should put on the slides, you can watch the [State of Libre Graphics 2014](https://www.youtube.com/watch?v=URm3ke0LTD4).
+
 For projects focused on video/animation; an up to 100second video/animation with audio would be welcome instead of slides 1 and 2. If this option is taken, upload the video somewhere and provide an URL for fetching it.
 
 Content should be submitted by Tuesday the 24th of April.
