@@ -1,0 +1,18 @@
+-------laidout-0.png
+Laidout continues to explore various types of interfaces.
+
+
+
+---------laidout-1.png
+For instance, Laidout now has a node based interface, implemented in part with gegl nodes.
+One can also import and export filters from svg files.
+
+
+
+---------laidout-2.png
+Work continues connecting these nodes to Laidout objects,
+such as use as object filters. Also to come are more ways 
+to interoperate between node systems of different applications.
+
+
+
