@@ -1,0 +1,17 @@
+# freieFarbe
+
+[Slide 0]
+
+freieFarbe (in German) or freeColour (in English), previously an informal initiative, is now recognised as a German non-profit organisation. One of its main purposes is to create an open colour system as an alternative to proprietary vendors like Pantone.
+
+
+During its first year as a non-profit organisation freeColour achieved two major goals:
+
+[Slide 1]
+
+The creation of a printed and digital colour reference based on open standards and mathematics, namely the HLC Colour Atlas, which is available in German and English. The printed Colour Atlas is being created with a high-end proof printer and dwarfs most other printed colour references in terms of measurable colour correctness. The colours and their names are free and not subject to copyright, patent or trademark law.
+
+[Slide 2]
+
+
+freeColour is currently cooperating with the German standards organisation DIN [pronounced like DEEN] to create a so-called "DIN SPEC" for "Open Colour Communication", which is a preliminary stage of what may later become a DIN [pronounced like DEEN] Standard and even further down the road an ISO Standard.
