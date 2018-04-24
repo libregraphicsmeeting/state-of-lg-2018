@@ -1,22 +1,26 @@
-[Slide 0] (Scribus logo, as usual)
+[Slide 0] (Scribus 1.5.x splash screen)
 
-Since the last LGM, Scribus has undergone some major changes and one release.
 
-[Slide 1] (new text engine and Text Properties at work)
+Since the last LGM, Scribus has undergone some major changes and seen one official release. The Scribus Team will release version 1.4.7 in the stable branch and version 1.5.4 in the stable development branch during this year's LGM. More disruptive changes are currently being implemented, tested and refined in a few experimental branches.
 
-The first major change was the replacement of the ageing and outdated text enginge with one completely rewritten from scratch by a team led by Khaled Hosny. As a result, Scribus now supports every writing system in the world, including many of those that are usually ignored by the major vendors of commercial DTP software. There are still some limitations regarding so-called CJK scripts -- CJK standing for Chinese, Japanese and Korean, which also includes Mongolian --, because vertical writing isn't supported yet.
+
+[Slide 1] (Arabic and Japanese rendered)
+
+The first major change was the replacement of the ageing and outdated text enginge with one completely rewritten from scratch by a team led by Khaled Hosny. As a result, Scribus now supports every writing system in the world, including many of those that are usually ignored by the major vendors of commercial DTP software. There are still some limitations regarding so-called CJK scripts -- CJK standing for Chinese, Japanese and Korean, which also includes Mongolian --, because vertical text direction isn't supported yet.
+
 
 The rewrite also resulted in a preview for fonts in font selectors, a remarkable speed-up in text rendering and hence working with long documents, and a vastly improved PDF export when it comes to text.
 
+
 Since so many text-related features had been added, it was inevitable to remove the "Text" tab from the already monstrously-sized Properties Palette and to create a separate "Text Properties Palette".
+
 
 [Slide 2] (CxF3 logo)
 
 
 The second major change is related to colours. First, Jean Ghali expanded the colour precision for fill colours to 64 Bit per channel. As a comparison, InDesign CC offers 16 Bit, and QuarkXpress still seems to work, at least partially, on an 8 Bit foundation.
 
+
 More importantly, as of Scribus version 1.5.4, Scribus will be the first end user software to support the open standard CxF3 for colour palettes. Ironically, CxF3 was developed by one of the most proprietary companies out there, namely X-Rite/Pantone. It is, however, a useful standard, because it allows for more than one version of a colour palette in a single file, so you can use one version for the web, another for creating a file for a particular CMYK printing process, and yet another to mix a spot colour. The latter is important, because ink vendors often rely on measured spectral colours (and the CxF3 format) to create their ink recipes via specialised software. As a result, Scribus can now also load CxF3 files with spectral colours, but since spectral colours are of little use in the design process, they will be converted to LAB.
 
-In addition to those two major developments, minor refinements or enhancements and countless bugfixes, new import filters have been added, namely for Krita files, as well as ZonerDraw 4+ and QuarkXpress until version 4, the latter thanks to the Document Liberation Project in general and David Tardon in particular, who also improved some of the DLP library import code in Scribus.
-
-Next up is the refinement of some text features like numbering, as well as the re-design of the user interface.
+In addition to those two major developments, minor refinements or enhancements and countless bugfixes, new import filters have been added, namely for Krita files, as well as ZonerDraw 4+ and QuarkXpress until version 4, the latter thanks to the Document Liberation Project in general and David Tardon in particular, who also improved some of the general DLP library import code in Scribus.
