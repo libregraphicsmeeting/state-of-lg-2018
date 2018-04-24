@@ -8,7 +8,7 @@ G’MIC provides many ways of manipulating generic image data, i.e. still images
 
 ## Port of the G’MIC-Qt plugin to Krita
 
-The G’MIC-Qt plugin is now available for Krita versions 3.3+ and, not yet as feature complete as the GIMP counterpart, the feedback we’ve had so far is rather positive.
+The G’MIC-Qt plugin is now available for Krita versions 3.3+ and, not yet as feature complete as the GIMP counterpart, but the feedback we’ve had so far is rather positive.
 
 ## CeCILL-C, a more permissive license
 
