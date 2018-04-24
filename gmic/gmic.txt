@@ -1,0 +1,67 @@
+# G'MIC
+
+-- slide 0 --
+
+G’MIC provides many ways of manipulating generic image data, i.e. still images or image sequences. More than 950 different image processing functions are already available in the G’MIC framework, this number being expandable through the use of the G’MIC scripting capabilities.
+
+-- slide 1 --
+
+## Port of the G’MIC-Qt plugin to Krita
+
+The G’MIC-Qt plugin is now available for Krita versions 3.3+ and, not yet as feature complete as the GIMP counterpart, the feedback we’ve had so far is rather positive.
+
+## CeCILL-C, a more permissive license
+
+The core files of G’MIC, (i.e. its C++ library libgmic) now als use the CeCILL-C license (in the spirit of the LGPL but conform to French law) It's now possible to integrate libgmic and its image filtersin software that is not licensed under GPL/CeCILL licenses.
+
+## Improving the lineart colorization filter
+
+From the analysis of the contours and the geometry of a lineart, the colorization filter tries to automatically generate a colorization layer.
+
+## Color equalizer in HSI, HSL and HSV spaces
+
+The artist can draw or paint digitally using only grayscale, then colorize his masterpiece afterwards by re-assigning specific colors to the different gray values of the image.
+
+G'MIC can ensure that the pixel brightness remains unchanged during the color transformation.
+
+# Angular deformations
+
+A random local deformation filter with the ability to generate angular deformations (giving a crispy look to the edges of comics, and improving the rendering of David Revoy's alien death ray).
+
+## Bring out the details without creating “halos”
+
+The challenge of the detail enhancement algorithms is to analyze the geometry of the local image structures in a more fine way, to take into account geometry-adaptive local weights for each pixel of a given neighborhood. To make it simple: we created anisotropic versions of the usual enhancement methods, orienting them by the edges detected in the images.
+
+## Different types of image deformations
+
+New filters to apply geometric deformations on images are added to G’MIC on a regular basis. Among others, G'MIC 2.2 adds the Deformations/Spherize filter which allows to locally distort an image to give the impression that it is projected on a 3D sphere or ellipsoid.
+
+-- slide 2 --
+
+## Artistic Abstractions
+
+Effects that turn an image into a more abstract version (simplification and re-rendering). These filters have in common the analysis of the local image geometry, followed by a step of image synthesis.
+
+For example, the Contours/Super-pixels filter locally gathers the image pixels with the same color to form a partitioned image, like a puzzle, with geometric shapes that stick to the contours. This partition is obtained using the SLIC method (Simple Linear Iterative Clustering).
+
+## Improvements in the G’MIC core
+
+- Better performances for the analysis of the language syntax.
+- Optimizations and new features in the mathematical expression evaluator, opening to even more possibilities for performing non-trivial operations at the pixel level.
+- A better support of raw video input/outputs (.yuv format).
+
+## A better G’MIC-Qt plugin
+
+The G'MIC Qt plug in used by Gimp and Krita now has:
+
+- The ability to set a timeout when previewing computationnaly intensive filters.
+- A better management of the input-output parameters for each filter (persistence, better menus, a reset button).
+- a better preview area is now easier (maximisation, zoom levels)
+
+## New design for G’MIC Online
+
+G’MIC Online is a web service allowing you to apply a subset of G’MIC filters on your images, directly inside a web browser. These web pages now have a responsive design (smartphones, tablets).
+
+## Image sources:
+
+G'MIC core / binaries: https://www.flickr.com/photos/mikecogh/8192314996/
