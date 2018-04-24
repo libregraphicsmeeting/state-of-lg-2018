@@ -1,0 +1,9 @@
+Inkscape is professional quality vector graphics software which runs on Windows, MacOS and GNU/Linux. It is used by design professionals and hobbyists worldwide, for creating a wide variety of graphics such as illustrations, icons, logos, diagrams, maps and web graphics. Inkscape uses the W3C open standard SVG (Scalable Vector Graphics) as its native format, and is free and open-source software.
+
+During the last year Inkscape has seen an increase in adoption among "makers". These are individuals using the vector drawing capabilities of Inkscape to help them fabricate physical objects. Inkscape continues to see strong usage among artists, graphic designers, students, educators, and more.
+
+The release of 0.92.2, and just recently 0.92.3, brought a number of fixes and usability enhancements to Inkscape. The recent Hackfest in the United States included significant work on Variable Fonts, and that work will continue here. The team is also working on migrating code from GTK2 to GTK3, which will enable many improvements to the user interface. The following release will be an unstable release in preparation for a rock-solid 1.0!
+
+With the code migrated to GitLab, and the creation of a new outreach and promotion team called the Vectors, it is easier than ever for both developers and regular users to get involved in helping to make Inkscape even better!
+
+
