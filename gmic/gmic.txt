@@ -12,7 +12,7 @@ The G’MIC-Qt plugin is now available for Krita versions 3.3+ and, not yet as f
 
 ## CeCILL-C, a more permissive license
 
-The core files of G’MIC, (i.e. its C++ library libgmic) now als use the CeCILL-C license (in the spirit of the LGPL but conform to French law) It's now possible to integrate libgmic and its image filtersin software that is not licensed under GPL/CeCILL licenses.
+The core files of G’MIC, (i.e. its C++ library libgmic) now als use the CeCILL-C license (in the spirit of the LGPL but conform to French law). It's now possible to integrate libgmic and its image filters in software that is not licensed under GPL/CeCILL licenses.
 
 ## Improving the lineart colorization filter
 
