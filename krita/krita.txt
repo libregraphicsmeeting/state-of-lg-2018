@@ -1,0 +1,26 @@
+[Slide 0]
+
+Krita in 2017/2018
+
+Releases: Krita 3.0 was released in 2016, We made 9 releases of Krita 3
+in 2017. We released Krita 4 in 2018 with a new text tool, svg support,
+python scripting, improved use of multi-core systems thanks to a project
+sponsored by Intel.
+
+[Slide 1]
+
+2017 was a difficult year, but the community rallied magnificiently. We
+now have two people working on krita full-time, and one working on Krita
+part-time. The community and userbase are growing and very healthy.
+Krita is the second-busiest project in the KDE community, directly after
+the desktop shell project itself.
+
+[Slide 3]
+
+Plan for 2018
+
+The main thing is stabilizing. We've been doing feature-oriented fund
+raisers 3 times (2014, 2015, 2016), so lots of stuff got added. We've
+decided to take a year to work on behind-the scenes things, like
+resource management, improve the testing framework, get rid of a bunch
+of long-standing bugs. We intend to have 6 releases of Krita 4 this year.
