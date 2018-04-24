@@ -1,0 +1,24 @@
+slide 0:
+
+GEGL is a library originally started in 2000 by Rythm and Hues in Hollywood to
+bring GIMP higher bitdepth than 8 bit and a new modular engine. It powers
+the coming GIMP-2.10 release as well as other tools reusing its components.
+
+slide 1:
+
+GEGL's uses of multiple threads is now on by default. But the OpenCL code paths
+are not. Intels beignet OpenCL implementation gives correct results but is
+slower than using multiple CPU threads and the nvidia drivers yield unexpected
+and unacceptable results for many operations.
+
+babl, GEGL and GIMPs pixel-format description and conversion library got native
+support for suing ICC v2/v4 matrix+TRC profiles, which is more than 10 times
+faster than using stock lcms2 for the conversions.
+
+slide 2:
+
+Development has accelerated in the last year, with almost monthly releases,
+more commits and a high rate of bugs being fixed.
+
+A stable API frozen release that can power a very backwards compatible
+GIMP-2.10 series is coming.
