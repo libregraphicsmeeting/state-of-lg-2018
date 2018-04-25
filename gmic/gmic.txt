@@ -55,9 +55,7 @@ An example of this is the new Super-pixels filter that partitions an image, base
 
 ## G'MIC Online redesign
 
-G’MIC Online is a web service allowing you to apply a subset of G’MIC filters on your images, directly inside a web browser.
-
-The web service is now responsive, allowing us the user to apply a selection of G'MIC filters from mobile devices.
+_G'MIC Online_ is a web service that allows you to apply G'MIC filters within a browser. It has been redesigned to be responsive to mobile devices.
 
 ## Image sources:
 
