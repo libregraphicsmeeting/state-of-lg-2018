@@ -1,0 +1,13 @@
+slide 0
+ - darktable is a raw converter and program to manage your digital images, processing images with high precision.
+ - darktable wasn't represented at last LGM, so here is an overview over the last two years.
+
+slide 1
+ - Hell froze over and a Windows port happened. It's quite stable already and mostly works but some parts are still work in progress.
+ - A new module for haze removal was added. You can use it to make landscape photos nicer and more contrasty.
+ - Another new module allows to use Look Up Tables to apply certain looks to the photos.
+ – The sensors in some Fuji cameras require special methods for demosaicing. A new one was added for better results.
+ - Most work in darktable isn't about shiny new features that lend themselves to be put on slides. So even when the release notes don't mention anything interesting it makes sense to update anyway.
+
+slide 2
+ - darktable has a relatively small core team but quite a few people contributing. That can be by writing code, reporting bugs or motivating the others to do more work.
