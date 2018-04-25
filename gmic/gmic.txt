@@ -1,67 +1,64 @@
 # G'MIC
 
--- slide 0 --
+-- SLIDE 0 --
 
 G'MIC provides many different user interfaces to convert, manipulate, filter and visualize generic image datasets. It has more than 950 image processing functions. Due to its scripting capabilities, many more can be added.
 
--- slide 1 --
+-- SLIDE 1 --
 
-## Port of the G’MIC-Qt plugin to Krita
+## G'MIC-Qt plugin for Krita
 
 The G'MIC-Qt plugin is now available for Krita 3.3+. Although it is not feature complete yet, we've received positive feedback.
 
 ## CeCILL-C, a more permissive license
 
-The G'MIC core is now dual-licensed CeCILL-C (LGPL-compatible) or CeCILL (GPL-compatible). It's now possible to integrate libgmic and gmic_stdlib in closed-source software as long as modifications to G'MIC are given back to the community. This change does not affect the plugin or community filters.
+The G'MIC core is now dual-licensed CeCILL-C (LGPL-compatible) or CeCILL (GPL-compatible). It's now possible to integrate `libgmic` and `gmic_stdlib` in closed-source software as long as modifications are given back to the community. This change does not affect the plugin or community filters.
 
 ## Improving the lineart colorization filter
 
-The lineart colorization filter has two new features: "Autoclean" helps keep colors within the contours and hatching detection limits the number of small colored areas generated.
+The filter has two new features: "Autoclean" helps keep colors within the contour boundaries and hatching detection limits the number of small colored areas generated.
 
 ## Color equalizer in HSI, HSL and HSV spaces
 
-The artist can draw or paint digitally using only grayscale, then colorize his masterpiece afterwards by re-assigning specific colors to the different gray values of the image.
+This new filter allows the user to modify the hue and saturation for various brightness ranges in an image while maintaining brightness. E.g., a digital artist would be able to quickly colorize his or her grayscale artwork.
 
-G'MIC can ensure that the pixel brightness remains unchanged during the color transformation.
+## Angular deformations
 
-# Angular deformations
+_Crease_ is a new local deformation filter that makes images "crispy"; e.g., make comic panels jagged or improve David Revoy's alien death ray.
 
-A random local deformation filter with the ability to generate angular deformations (giving a crispy look to the edges of comics, and improving the rendering of David Revoy's alien death ray).
+## Detail enhancement without the "halos"
 
-## Bring out the details without creating “halos”
+_Magic details_ and _Equalize local histograms_ are filters that consider the geometric content of the image (anisotropy) for local enhancement, allowing more detail and color to come through while reducing halos that typically arise from enhancement.
 
-The challenge of the detail enhancement algorithms is to analyze the geometry of the local image structures in a more fine way, to take into account geometry-adaptive local weights for each pixel of a given neighborhood. To make it simple: we created anisotropic versions of the usual enhancement methods, orienting them by the edges detected in the images.
+## Image deformations
 
-## Different types of image deformations
+Filters that apply geometric deformations are added regularly; e.g., we could add a local spherical or ellipsoidal deformation using _Spherize_.
 
-New filters to apply geometric deformations on images are added to G’MIC on a regular basis. Among others, G'MIC 2.2 adds the Deformations/Spherize filter which allows to locally distort an image to give the impression that it is projected on a 3D sphere or ellipsoid.
+-- SLIDE 2 --
 
--- slide 2 --
+## Artistic abstractions
 
-## Artistic Abstractions
+An example of this is the new Super-pixels filter that partitions an image, based on similar colors, into geometric shapes that align to the contours. This is achieved by using the SLIC method (Simple Linear Iterative Clustering).
 
-Effects that turn an image into a more abstract version (simplification and re-rendering). These filters have in common the analysis of the local image geometry, followed by a step of image synthesis.
+## G'MIC core and interpreter
 
-For example, the Contours/Super-pixels filter locally gathers the image pixels with the same color to form a partitioned image, like a puzzle, with geometric shapes that stick to the contours. This partition is obtained using the SLIC method (Simple Linear Iterative Clustering).
-
-## Improvements in the G’MIC core
-
-- Better performances for the analysis of the language syntax.
-- Optimizations and new features in the mathematical expression evaluator, opening to even more possibilities for performing non-trivial operations at the pixel level.
-- A better support of raw video input/outputs (.yuv format).
+- Syntax improvements making scripts easier to write, read and execute with a lower memory footprint.
+- The math expression evaluator has received many optimizations and features making it more robust and capable.
+- Support for .yuv video files now extends to more sampling modes (4:2:0, 4:2:2 or 4:4:4).
 
 ## A better G’MIC-Qt plugin
 
-The G'MIC Qt plug in used by Gimp and Krita now has:
+- The ability to set a timeout for previewing computationally intensive filters.
+- Better management of filter parameters via menus, persistent values and a reset button.
+- Preview area is cleaner and easier to zoom and maximize.
+- Language support independent from the system defaults.
 
-- The ability to set a timeout when previewing computationnaly intensive filters.
-- A better management of the input-output parameters for each filter (persistence, better menus, a reset button).
-- a better preview area is now easier (maximisation, zoom levels)
+## G'MIC Online redesign
 
-## New design for G’MIC Online
+G’MIC Online is a web service allowing you to apply a subset of G’MIC filters on your images, directly inside a web browser.
 
-G’MIC Online is a web service allowing you to apply a subset of G’MIC filters on your images, directly inside a web browser. These web pages now have a responsive design (smartphones, tablets).
+The web service is now responsive, allowing us the user to apply a selection of G'MIC filters from mobile devices.
 
 ## Image sources:
 
-G'MIC core / binaries: https://www.flickr.com/photos/mikecogh/8192314996/
+-G'MIC core / binaries: https://www.flickr.com/photos/mikecogh/8192314996/
