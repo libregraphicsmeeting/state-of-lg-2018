@@ -1,0 +1,42 @@
+# Gimp
+
+-- slide 0 --
+
+2018: Gimp 2.10 finalized, feature:
+
+- High bit depth support
+- Linear color space workflow
+- Color management as a core feature
+- More use for CIE LAB and CIE LCH
+- New transformation tools
+- Completely redesigned Gradient tool
+- Canvas rotation / flipping for digital painting
+- Exif, XMP, IPTC viewing and editing
+- Native WebP, OpenEXR, RGBE support
+- Imprvoed TIFF and PSD support
+- More GEGL-based filters with on-canvas preview than is good for ya!
+- Multi-threading
+
+-- slide 1 --
+
+Next up:
+
+- Bufifixing after v.2.10.0 release
+- 2.10.xseries developed in parallel with 3.0
+- 2.10.x open for new features
+
+What 3.0 means:
+
+- GTK+3 port
+- API deprecation
+- Better Wayland support
+- Better support for graphic tablets on Windows (or so they say)
+
+-- slide 2 --
+
+Challenges
+
+- Active dev team is only 6 people
+- Jehan and Øyvind need a lot more community support via Patreon / Liberpay (they are getting there)
+- 3.0 timeframe cannot be realistically estimated at this point
+- We want shorter release cycles to keep both users and contributors interested (hence opening 2.10.x for new features)
