@@ -1,0 +1,20 @@
+# Afgral
+
+-- slide 0 --
+
+Afgral is a french association promoting the use and the development of free tools and content in the graphics and creative industry.
+
+-- slide 1 --
+
+Since 2011, Afgral has been organising workshops and trainings about
+
+- Game design and art
+- Illustrations
+- Web development, marketing and esign
+- Ebooks creation
+
+-- slide 2 --
+
+Afgral is also organizing a yearly GrafikLabor over a weekend with talks, workshops and hackatons.
+
+They also coordinate the local Blender User Group in Rennes.
